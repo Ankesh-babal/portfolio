@@ -48,7 +48,7 @@ body{
   color:var(--ink);
   font-family:'Inter', system-ui, sans-serif;
   font-weight:400;
-  font-size:17px;
+  font-size:15.5px;
   line-height:1.7;
   -webkit-font-smoothing:antialiased;
   overflow-x:hidden;
@@ -98,7 +98,7 @@ nav .inner{
   padding:18px 32px;
 }
 nav .brand{
-  font-family:'Instrument Serif',serif;font-size:22px;
+  font-family:'Instrument Serif',serif;font-size:18px;
   display:flex;align-items:center;gap:12px;color:var(--ink);
 }
 nav .brand .mark{
@@ -165,7 +165,7 @@ nav .cta:hover{transform:translateY(-1px);box-shadow:0 6px 22px var(--glow-blue)
 
 h1.name{
   font-family:'Instrument Serif',serif;font-weight:400;
-  font-size:clamp(44px,7vw,80px);
+  font-size:clamp(36px,6vw,64px);
   line-height:.96;letter-spacing:-.035em;
   color:var(--ink);margin-bottom:36px;
 }
@@ -175,7 +175,7 @@ h1.name em{
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
 .tagline{
-  font-size:22px;line-height:1.55;
+  font-size:18px;line-height:1.6;
   max-width:640px;color:var(--ink-soft);
   margin-bottom:48px;font-weight:400;
 }
@@ -217,9 +217,9 @@ h1.name em{
 /* ================================================================
    SECTION DEFAULTS
    ================================================================ */
-section{padding:100px 0;position:relative}
+section{padding:80px 0;position:relative}
 
-.section-head{margin-bottom:56px;max-width:780px}
+.section-head{margin-bottom:44px;max-width:780px}
 .eyebrow{
   display:inline-flex;align-items:center;gap:12px;
   font-family:'JetBrains Mono',monospace;
@@ -233,7 +233,7 @@ section{padding:100px 0;position:relative}
 }
 .section-head h2{
   font-family:'Instrument Serif',serif;font-weight:400;
-  font-size:clamp(32px,4vw,48px);
+  font-size:clamp(26px,3.5vw,38px);
   line-height:1.1;letter-spacing:-.02em;color:var(--ink);
 }
 .section-head h2 em{
@@ -242,7 +242,7 @@ section{padding:100px 0;position:relative}
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
 .section-head p{
-  margin-top:20px;color:var(--ink-soft);font-size:17px;max-width:620px;line-height:1.6;
+  margin-top:18px;color:var(--ink-soft);font-size:14.5px;max-width:620px;line-height:1.6;
 }
 
 /* ================================================================
@@ -252,7 +252,7 @@ section{padding:100px 0;position:relative}
   display:grid;grid-template-columns:1.2fr 1fr;gap:80px;align-items:start;
 }
 @media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:56px}}
-.about-text p{font-size:19px;color:var(--ink-soft);margin-bottom:24px;line-height:1.75}
+.about-text p{font-size:16px;color:var(--ink-soft);margin-bottom:24px;line-height:1.75}
 .about-text p strong{color:var(--ink);font-weight:600}
 
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
@@ -272,7 +272,7 @@ section{padding:100px 0;position:relative}
 .stat:hover{border-color:var(--blue);transform:translateY(-4px)}
 .stat:hover::before{opacity:.5}
 .stat .num{
-  font-family:'Instrument Serif',serif;font-size:36px;line-height:1;
+  font-family:'Instrument Serif',serif;font-size:22px;line-height:1;
   background:linear-gradient(135deg,var(--blue),var(--cyan));
   -webkit-background-clip:text;background-clip:text;color:transparent;
   margin-bottom:10px;position:relative;
@@ -299,7 +299,7 @@ section{padding:100px 0;position:relative}
   text-align:center;margin-bottom:56px;position:relative;
 }
 .pipeline-title h3{
-  font-family:'Instrument Serif',serif;font-size:28px;
+  font-family:'Instrument Serif',serif;font-size:22px;
   font-weight:400;margin-bottom:10px;
 }
 .pipeline-title p{color:var(--ink-soft);font-size:14px}
@@ -360,7 +360,7 @@ section{padding:100px 0;position:relative}
 @media(max-width:700px){.pipeline-stats{grid-template-columns:1fr 1fr;gap:16px}}
 .pipeline-stats .item{text-align:center}
 .pipeline-stats .n{
-  font-family:'Instrument Serif',serif;font-size:32px;
+  font-family:'Instrument Serif',serif;font-size:24px;
   background:linear-gradient(135deg,var(--blue),var(--cyan));
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
@@ -444,7 +444,7 @@ section{padding:100px 0;position:relative}
   opacity:.25;pointer-events:none;
 }
 .arch-title{text-align:center;margin-bottom:56px;position:relative}
-.arch-title h3{font-family:'Instrument Serif',serif;font-size:26px;font-weight:400;margin-bottom:8px}
+.arch-title h3{font-family:'Instrument Serif',serif;font-size:20px;font-weight:400;margin-bottom:8px}
 .arch-title p{color:var(--ink-soft);font-size:15px}
 
 .arch-flow{
@@ -556,7 +556,7 @@ section{padding:100px 0;position:relative}
 .skill-card .icon svg{width:22px;height:22px}
 .skill-card h4{
   font-family:'Instrument Serif',serif;font-weight:400;
-  font-size:20px;margin-bottom:16px;color:var(--ink);position:relative;
+  font-size:17px;margin-bottom:14px;color:var(--ink);position:relative;
 }
 .skill-card ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px;position:relative}
 .skill-card li{
@@ -595,7 +595,7 @@ section{padding:100px 0;position:relative}
   padding:5px 12px;border-radius:999px;font-weight:500;
   margin-bottom:14px;letter-spacing:.03em;
 }
-.job h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:24px;margin-bottom:6px;color:var(--ink)}
+.job h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:17px;margin-bottom:6px;color:var(--ink)}
 .job .company{
   color:var(--blue);font-size:15px;margin-bottom:20px;font-weight:500;
   display:flex;align-items:center;gap:10px;
@@ -607,7 +607,7 @@ section{padding:100px 0;position:relative}
 .job ul{list-style:none;margin-top:16px}
 .job ul li{
   position:relative;padding-left:28px;color:var(--ink-soft);
-  font-size:16px;margin-bottom:12px;max-width:760px;line-height:1.65;
+  font-size:14.5px;margin-bottom:10px;max-width:760px;line-height:1.65;
 }
 .job ul li::before{
   content:"";position:absolute;left:0;top:12px;
@@ -647,14 +647,14 @@ section{padding:100px 0;position:relative}
 }
 .proj .num{
   font-family:'Instrument Serif',serif;font-style:italic;
-  font-size:20px;color:var(--ink-mute);opacity:.6;
+  font-size:16px;color:var(--ink-mute);opacity:.6;
 }
 .proj h3{
   font-family:'Instrument Serif',serif;font-weight:400;
-  font-size:22px;line-height:1.2;
+  font-size:18px;line-height:1.25;
   margin-bottom:14px;color:var(--ink);letter-spacing:-.01em;
 }
-.proj p{color:var(--ink-soft);font-size:16px;margin-bottom:24px;flex-grow:1;line-height:1.65}
+.proj p{color:var(--ink-soft);font-size:14px;margin-bottom:24px;flex-grow:1;line-height:1.65}
 .proj p strong{color:var(--ink);font-weight:600}
 .proj .stack{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:26px}
 .proj .stack span{
@@ -687,16 +687,16 @@ section{padding:100px 0;position:relative}
   backdrop-filter:blur(14px);
 }
 .edu-item:hover{border-color:var(--blue);transform:translateX(6px)}
-.edu-item h4{font-family:'Instrument Serif',serif;font-weight:400;font-size:20px;margin-bottom:6px;color:var(--ink)}
+.edu-item h4{font-family:'Instrument Serif',serif;font-weight:400;font-size:17px;margin-bottom:6px;color:var(--ink)}
 .edu-item .sub{color:var(--cyan);font-size:15px;margin-bottom:8px;font-weight:500}
 .edu-item .date{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--ink-mute)}
 
 .cert-list{list-style:none;display:flex;flex-direction:column;gap:12px}
 .cert-list li{
   display:flex;align-items:center;gap:16px;
-  padding:20px 24px;background:var(--surface);
+  padding:18px 22px;background:var(--surface);
   border:1px solid var(--line);border-radius:14px;
-  font-size:16px;color:var(--ink);font-weight:500;
+  font-size:14.5px;color:var(--ink);font-weight:500;
   transition:all .3s;backdrop-filter:blur(14px);
 }
 .cert-list li:hover{border-color:var(--blue);transform:translateX(6px)}
@@ -712,8 +712,9 @@ section{padding:100px 0;position:relative}
 /* ================================================================
    CONTACT
    ================================================================ */
+
 .contact{
-  padding:100px 0 60px;text-align:center;position:relative;
+  padding:80px 0 50px;text-align:center;position:relative;
 }
 .contact::before{
   content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);
@@ -723,7 +724,7 @@ section{padding:100px 0;position:relative}
 .contact .eyebrow{justify-content:center}
 .contact h2{
   font-family:'Instrument Serif',serif;font-weight:400;
-  font-size:clamp(36px,5vw,56px);line-height:1.1;letter-spacing:-.02em;
+  font-size:clamp(28px,4vw,42px);line-height:1.1;letter-spacing:-.02em;
   color:var(--ink);margin-bottom:24px;max-width:900px;margin-inline:auto;
 }
 .contact h2 em{
@@ -731,10 +732,10 @@ section{padding:100px 0;position:relative}
   background:linear-gradient(120deg,var(--blue),var(--cyan),var(--violet));
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
-.contact > .wrap > p{color:var(--ink-soft);font-size:19px;max-width:540px;margin:0 auto 48px;line-height:1.6}
+.contact > .wrap > p{color:var(--ink-soft);font-size:16px;max-width:540px;margin:0 auto 48px;line-height:1.6}
 .contact .email-big{
   display:inline-block;font-family:'Instrument Serif',serif;
-  font-size:clamp(24px,3.5vw,40px);font-weight:400;
+  font-size:clamp(18px,2.5vw,28px);font-weight:400;
   color:var(--ink);padding:20px 40px;
   background:var(--surface);border:1px solid var(--line-hi);
   border-radius:999px;backdrop-filter:blur(14px);
@@ -777,7 +778,7 @@ footer{
 ::-webkit-scrollbar-thumb:hover{background:var(--blue)}
 
 /* ===== TYPEWRITER ===== */
-.typewriter-wrap{font-size:22px;color:var(--ink-soft);line-height:1.6}
+.typewriter-wrap{font-size:18px;color:var(--ink-soft);line-height:1.6}
 .tw-cursor{display:inline-block;color:var(--cyan);font-weight:600}
 .caret{display:inline-block;margin-left:2px;color:var(--cyan);animation:blink 1s steps(2) infinite}
 @keyframes blink{50%{opacity:0}}
@@ -841,10 +842,10 @@ footer{
 .quote:hover{border-color:var(--blue);transform:translateY(-4px)}
 .quote::before{
   content:"\201C";position:absolute;top:-10px;left:20px;
-  font-family:'Instrument Serif',serif;font-size:80px;
+  font-family:'Instrument Serif',serif;font-size:48px;
   color:var(--cyan);opacity:.4;line-height:1;
 }
-.quote p{font-size:16px;color:var(--ink-soft);line-height:1.65;margin-bottom:24px;font-style:italic}
+.quote p{font-size:14px;color:var(--ink-soft);line-height:1.65;margin-bottom:24px;font-style:italic}
 .quote .author{display:flex;align-items:center;gap:12px}
 .quote .avatar{
   width:44px;height:44px;border-radius:50%;
@@ -875,7 +876,7 @@ footer{
   font-family:'JetBrains Mono',monospace;font-size:11px;
   color:var(--cyan);letter-spacing:.15em;margin-bottom:6px;text-transform:uppercase;
 }
-.now-content h4{font-family:'Instrument Serif',serif;font-size:22px;font-weight:400;margin-bottom:6px}
+.now-content h4{font-family:'Instrument Serif',serif;font-size:18px;font-weight:400;margin-bottom:6px}
 .now-content p{font-size:14.5px;color:var(--ink-soft);line-height:1.55}
 
 /* ===== AI CHATBOT ===== */
@@ -1029,7 +1030,7 @@ footer{
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
     </ul>
-    <a href="#contact" class="cta">Hire me →</a>
+    <a href="#contact" class="cta">Get in touch →</a>
   </div>
 </nav>
 
@@ -1140,7 +1141,7 @@ footer{
         </p>
       </div>
       <div class="stats reveal">
-        <div class="stat"><div class="num">10K+</div><div class="lbl">Documents processed in LLM pipeline</div></div>
+        <div class="stat"><div class="num">4</div><div class="lbl">Production AI systems shipped</div></div>
         <div class="stat"><div class="num">11</div><div class="lbl">Public GitHub repositories</div></div>
         <div class="stat"><div class="num">96%</div><div class="lbl">ML classification accuracy (SVM)</div></div>
         <div class="stat"><div class="num">20%</div><div class="lbl">BI reporting time reduced</div></div>
@@ -1315,10 +1316,10 @@ footer{
       </div>
 
       <div class="pipeline-stats">
-        <div class="item"><div class="n">10K+</div><div class="l">Documents</div></div>
+        <div class="item"><div class="n">&lt;1s</div><div class="l">API Latency</div></div>
         <div class="item"><div class="n">RAG</div><div class="l">Retrieval</div></div>
-        <div class="item"><div class="n">Gemini</div><div class="l">LLM core</div></div>
-        <div class="item"><div class="n">API</div><div class="l">Real-time</div></div>
+        <div class="item"><div class="n">Gemini</div><div class="l">LLM Core</div></div>
+        <div class="item"><div class="n">5</div><div class="l">Pipeline Stages</div></div>
       </div>
     </div>
   </div>
@@ -1484,11 +1485,11 @@ footer{
         <h3>AI / LLM Engineer Intern</h3>
         <div class="company">Dealtable.ai</div>
         <ul>
-          <li>Built an end-to-end LLM-based pipeline to support venture capital investment decision-making.</li>
-          <li>Processed and structured 10K+ documents to enable data-driven evaluation.</li>
-          <li>Designed a scoring &amp; evaluation framework to assess model outputs and flag high-risk cases.</li>
-          <li>Developed an API-based system to deliver real-time decision support.</li>
-          <li>Implemented retrieval-augmented (RAG) workflows over structured document inputs.</li>
+          <li>Built an end-to-end LLM pipeline using Gemini API and retrieval-augmented generation to support VC investment decisions.</li>
+          <li>Ingested, cleaned and structured 10K+ documents into a queryable knowledge base with vector embeddings.</li>
+          <li>Designed a multi-criteria scoring framework to evaluate model outputs, flag high-risk cases and reduce false positives.</li>
+          <li>Shipped a sub-second FastAPI decision endpoint consumed by the investment team in real-time.</li>
+          <li>Engineered prompt templates and retrieval strategies that improved output consistency across document types.</li>
         </ul>
       </div>
 
@@ -1534,15 +1535,15 @@ footer{
       <article class="proj reveal">
         <div class="top"><span class="cat">AI / LLM</span><span class="num">01</span></div>
         <h3>LLM Pipeline for VC Investment Decisions</h3>
-        <p>End-to-end LLM system built during my Dealtable.ai internship. Processes <strong>10K+ documents</strong>, applies a custom scoring framework, and serves real-time decision support via API using retrieval-augmented generation.</p>
-        <div class="stack"><span>Python</span><span>LLMs</span><span>Gemini</span><span>RAG</span><span>FastAPI</span></div>
-        <div class="links"><span style="font-size:13px;color:var(--ink-mute);display:inline-flex;align-items:center;gap:6px">🔒 Private repo · Internship project</span></div>
+        <p>End-to-end LLM system at Dealtable.ai. Ingested and structured <strong>thousands of VC documents</strong>, built a retrieval-augmented generation pipeline with Gemini API, designed a multi-criteria scoring framework, and shipped a <strong>sub-second decision API</strong> via FastAPI serving real-time investment insights.</p>
+        <div class="stack"><span>Python</span><span>Gemini API</span><span>RAG</span><span>FastAPI</span><span>Vector DB</span><span>Prompt engineering</span></div>
+        <div class="links"><span style="font-size:13px;color:var(--ink-mute);display:inline-flex;align-items:center;gap:6px">🔒 Private repo · Internship NDA</span></div>
       </article>
 
       <article class="proj reveal">
         <div class="top"><span class="cat">Data Engineering</span><span class="num">02</span></div>
         <h3>Transit Analytics &amp; AI-Ready Pipeline</h3>
-        <p>Full transit analytics platform processing GTFS static &amp; real-time trip updates. Streamlit multi-page dashboard covers headways, delays, reliability, bunching and route comparison. Cloud plan on Azure Data Lake + Data Factory + Databricks.</p>
+        <p>Full transit analytics platform processing GTFS static &amp; real-time trip updates. Built a <strong>6-page Streamlit dashboard</strong> (headways, delays, reliability, heatmaps, route comparison, performance score). Designed cloud expansion on Azure Data Lake + Data Factory + Databricks.</p>
         <div class="stack"><span>Python</span><span>Streamlit</span><span>Azure</span><span>Databricks</span><span>GTFS</span></div>
         <div class="links"><span style="font-size:13px;color:var(--ink-mute);display:inline-flex;align-items:center;gap:6px">🔒 Private repo · University project</span></div>
       </article>
@@ -1550,7 +1551,7 @@ footer{
       <article class="proj reveal">
         <div class="top"><span class="cat">Data Engineering</span><span class="num">03</span></div>
         <h3>Uber Data Engineering Project</h3>
-        <p>Cloud data engineering pipeline on Uber trip data — ingestion, transformation and analytics layer on GCP. Built to practise modern DE tooling end-to-end.</p>
+        <p>Cloud-native data pipeline on Uber trip data — automated ingestion via Mage, transformation layer in Python, and analytics served through <strong>BigQuery</strong> on GCP. Full medallion architecture (bronze → silver → gold).</p>
         <div class="stack"><span>Python</span><span>GCP</span><span>BigQuery</span><span>Mage</span></div>
         <div class="links"><a href="https://github.com/Ankesh-babal/Uber-data-engineering-project" target="_blank" rel="noopener">View on GitHub →</a></div>
       </article>
@@ -1558,57 +1559,25 @@ footer{
       <article class="proj reveal">
         <div class="top"><span class="cat">Machine Learning</span><span class="num">04</span></div>
         <h3>Obesity Disease Detection (ML)</h3>
-        <p>Classification models predicting obesity risk using SVM, Random Forest and XGBoost — SVM achieved <strong>96.44% accuracy</strong>. Wrapped in a GUI for real-time prediction, targeted at healthcare screening.</p>
+        <p>Classification models predicting obesity risk — compared SVM, Random Forest and XGBoost. SVM achieved <strong>96.44% accuracy</strong>. Built a GUI for real-time input and prediction, targeted at healthcare screening workflows.</p>
         <div class="stack"><span>Python</span><span>scikit-learn</span><span>XGBoost</span><span>Tkinter</span></div>
         <div class="links"><a href="https://github.com/Ankesh-babal/Obesity-Disease-Detection-Using-Machine-Learning-Approach" target="_blank" rel="noopener">View on GitHub →</a></div>
       </article>
 
       <article class="proj reveal">
-        <div class="top"><span class="cat">Optimisation</span><span class="num">05</span></div>
-        <h3>Commercial Cleaning Profit Optimisation</h3>
-        <p>Mixed-Integer Linear Programming (MILP) model for routing cleaning teams at OCS. Resolved data integration issues, tested the system, and validated the impact on resource allocation and route planning.</p>
-        <div class="stack"><span>Python</span><span>MILP</span><span>PuLP</span></div>
-        <div class="links"><span style="font-size:13px;color:var(--ink-mute);display:inline-flex;align-items:center;gap:6px">🔒 Private repo · University project</span></div>
-      </article>
-
-      <article class="proj reveal">
-        <div class="top"><span class="cat">Analytics</span><span class="num">06</span></div>
+        <div class="top"><span class="cat">Analytics</span><span class="num">05</span></div>
         <h3>Business Report 360 — Power BI</h3>
-        <p>Interactive dashboard covering Finance, Sales, Marketing, Supply Chain &amp; Executive views for a hardware company. MySQL source, snowflake modelling, DAX measures, and Power BI Service with auto-refresh.</p>
+        <p>Interactive dashboard covering <strong>5 business domains</strong> (Finance, Sales, Marketing, Supply Chain, Executive). MySQL source, snowflake modelling, DAX measures, DAX Studio performance tuning, and Power BI Service with auto-refresh &amp; row-level security.</p>
         <div class="stack"><span>Power BI</span><span>DAX</span><span>MySQL</span><span>Snowflake</span></div>
         <div class="links"><a href="https://github.com/Ankesh-babal/Business-report-360-PowerBi-" target="_blank" rel="noopener">View on GitHub →</a></div>
       </article>
 
       <article class="proj reveal">
-        <div class="top"><span class="cat">Full Stack</span><span class="num">07</span></div>
-        <h3>Expense Tracker System</h3>
-        <p>Complete expense tracking app — FastAPI backend, Streamlit frontend and MySQL for persistence. Demonstrates a clean API boundary with a usable analytics frontend on top.</p>
-        <div class="stack"><span>FastAPI</span><span>Streamlit</span><span>MySQL</span><span>Python</span></div>
-        <div class="links"><a href="https://github.com/Ankesh-babal/Expense-Tracker-System" target="_blank" rel="noopener">View on GitHub →</a></div>
-      </article>
-
-      <article class="proj reveal">
-        <div class="top"><span class="cat">SQL Analytics</span><span class="num">08</span></div>
-        <h3>Music Store — SQL Analysis</h3>
-        <p>Advanced SQL analysis of a music store database — top customers, profitable cities, popular genres, and revenue breakdowns using window functions and CTEs.</p>
-        <div class="stack"><span>SQL</span><span>PostgreSQL</span><span>CTEs</span></div>
-        <div class="links"><a href="https://github.com/Ankesh-babal/Music-store" target="_blank" rel="noopener">View on GitHub →</a></div>
-      </article>
-
-      <article class="proj reveal">
-        <div class="top"><span class="cat">Analytics</span><span class="num">09</span></div>
-        <h3>AtliQ Hospitality Analysis</h3>
-        <p>Revenue and occupancy analysis for a hospitality client — built during the AtliQ internship. Focus on KPI design, anomaly detection and stakeholder-friendly dashboards.</p>
-        <div class="stack"><span>Power BI</span><span>DAX</span><span>Excel</span></div>
-        <div class="links"><a href="https://github.com/Ankesh-babal/AtliQ_Hospitatliy_Analysis" target="_blank" rel="noopener">View on GitHub →</a></div>
-      </article>
-
-      <article class="proj reveal">
-        <div class="top"><span class="cat">Explore</span><span class="num">+2</span></div>
-        <h3>All 11 repositories on GitHub</h3>
-        <p>Side projects, experiments and learning repos live on GitHub. Head over to see what's currently in progress.</p>
+        <div class="top"><span class="cat">More work</span><span class="num">+6</span></div>
+        <h3>6 more projects on GitHub</h3>
+        <p>Expense Tracker (FastAPI + Streamlit), SQL Music Store analysis, AtliQ Hospitality dashboards, MILP route optimisation, and more. All source code public.</p>
         <div class="stack"><span>GitHub</span><span>@Ankesh-babal</span></div>
-        <div class="links"><a href="https://github.com/Ankesh-babal?tab=repositories" target="_blank" rel="noopener">Browse all →</a></div>
+        <div class="links"><a href="https://github.com/Ankesh-babal?tab=repositories" target="_blank" rel="noopener">Browse all repos →</a></div>
       </article>
 
     </div>
@@ -1668,7 +1637,7 @@ footer{
         </div>
       </div>
       <div class="quote reveal">
-        <p>I've handled <strong>10K+ documents</strong> in a single pipeline, built scoring frameworks for investment decisions, and designed dashboards across finance, sales and supply chain. I work with real business data, not toy datasets.</p>
+        <p>I've built production LLM pipelines over <strong>large-scale document sets</strong>, designed scoring frameworks for investment decisions, and shipped dashboards across finance, sales and supply chain. I work with real business data, not toy datasets.</p>
         <div class="author">
           <div class="avatar" style="background:linear-gradient(135deg,var(--cyan),var(--green))">📊</div>
           <div><div class="who">Battle-tested with real data</div><div class="role">Not just Kaggle projects</div></div>
